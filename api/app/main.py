@@ -4,4 +4,5 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+  """This is the root path of the API"""
+  return {"Hello": "World"}
